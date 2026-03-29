@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XYModuleA_Example' do
+  pod 'XYModuleA', :path => '../'
+
+  target 'XYModuleA_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
