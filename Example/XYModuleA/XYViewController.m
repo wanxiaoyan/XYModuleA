@@ -7,6 +7,7 @@
 //
 
 #import "XYViewController.h"
+#import "XY_AViewController.h"
 
 @interface XYViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    XY_AViewController *vc = [[XY_AViewController alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
