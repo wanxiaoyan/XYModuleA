@@ -1,0 +1,6 @@
+framework module XYModuleA {
+  umbrella header "XYModuleA-umbrella.h"
+
+  export *
+  module * { export * }
+}

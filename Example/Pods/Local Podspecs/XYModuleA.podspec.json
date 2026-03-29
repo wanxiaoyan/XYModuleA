@@ -1,0 +1,22 @@
+{
+  "name": "XYModuleA",
+  "version": "0.1.0",
+  "summary": "A short description of XYModuleA.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanxiaodi3/XYModuleA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanxiaodi3": "wanxiaodi3@jd.com"
+  },
+  "source": {
+    "git": "https://github.com/wanxiaodi3/XYModuleA.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XYModuleA/Classes/**/*"
+}
